@@ -1,1 +1,1 @@
-# first_website
+My second odin project project. making a website.
