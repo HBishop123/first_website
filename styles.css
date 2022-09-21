@@ -14,17 +14,13 @@ body {
     
 }
 
-.box1 {
+.container1 {
     display: flex;
     flex-direction: column;
     background-color: darkblue;
     padding: 10px 250px 0px 250px;
     height: 600px;
     
-    
-    
-   
-   
 }
 
 .headerhigh {
@@ -76,7 +72,7 @@ button {
 
 img {
     width: 800px;
-    height: 350px;
+    height: 330px;
 }
 
 .container2 {
@@ -87,3 +83,52 @@ img {
     
     
 }
+
+
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 10px 250px 0px 250px;
+    height: 600px;
+    align-items: center;
+    
+}
+
+h2 {
+    color: black;
+}
+
+
+.box {
+    height: 250px; 
+    width: 250px;
+    border-radius: 15px;
+    border-color: blue ;
+    border-style: solid ;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding-top: 40px;
+    
+    
+}
+.subtext {
+    color: black;
+    width: 200px;
+    height: auto;
+    align-content: center;
+}
+.alltext {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    padding-top: 10px;
+    
+    
+}
+
